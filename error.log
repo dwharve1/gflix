@@ -1,0 +1,2493 @@
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
+/home/plex/plexdev/PlexManager.js:58
+							var epKeys = Object.keys(savedEpisodes[dbKeys[i]].episodes);
+							                    ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (native)
+    at /home/plex/plexdev/PlexManager.js:58:28
+    at /home/plex/plexdev/PlexManager.js:174:12
+    at FSReqWrap.oncomplete (fs.js:82:15)
