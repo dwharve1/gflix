@@ -18,8 +18,6 @@ if(fs.existsSync(parsersPath)) {
 }
 
 // Databases
-var tmdb = require('moviedb')('ae171aa864156acb87af501e1dcf2d84');
-//var tvdb = new (require('node-tvdb'))("6BBEDAE780DC7C68");
 var request = require('request');
 var mongoose = require('mongoose');
 var db = mongoose.connection;
