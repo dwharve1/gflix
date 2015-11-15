@@ -11,7 +11,6 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-var ios = require('socket.io-stream');
 var rangeParser = require('range-parser');
 var pump = require('pump');
 var rimraf = require('rimraf');
