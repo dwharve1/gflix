@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Torrent Stream Test</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<script language='javascript' src='/socket.io/socket.io.js'></script>
+<script language='javascript' src='js/socket.io-stream.js'></script>
+<script language='javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js'></script>
+<script language='javascript'>
+	var app = angular.module('Search', []);
+	app.controller('searchCtrl',function($scope){
+		$scope.searchIO = io.connect(location.href+'search');
+		$scope.query = "";
+		$scope.label = {msg:''};
+		$scope.tmdb = null;
+				
+		$scope.searchIO.on('progress',function(obj){
+			$scope.label.msg = obj.msg;
+			$scope.$apply();
+		});
+		$scope.searchIO.on('tmdb:search',function(err,res){
+			if(err){$scope.label.msg = err; $scope.$apply();return;}
+			$scope.tmdb = res;
+			$scope.$apply();
+		});
+	});
+</script>
+</head>
+<body>
+	<div class="container" ng-app="Search" ng-controller="searchCtrl">
+		<div>
+			Search: <input type="input" name="query" ng-model="query">
+			<input type="button" value="search" ng-click="searchIO.emit('tmdb:search',query)">
+		</div>
+		<br>
+		<div class="row" ng-show="(!selected) && (!videoUri)">
+			<div ng-repeat="res in tmdb">
+				<div class="col-sm-4" ng-show="(res.poster_path)">
+					<div class="thumbnail">
+						<a href="{{(res.media_type='movie')?'movie?tmdb='+res.id:tv?tmdb='res.id'}}">
+							<img src="http://image.tmdb.org/t/p/w185/{{res.poster_path}}" ng-show="(res.poster_path)">
+							<div class="caption">
+								<h3 ng-show="(res.title)">{{res.title}}</h3>
+								<h3 ng-show="(res.name)">{{res.name}}</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<video id='video' autoplay controls src="{{videoUri}}"  ng-show="(videoUri)"></video>
+	</div>
+</body>
+</html>
