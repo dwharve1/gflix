@@ -1,10 +1,28 @@
-var DEBUG = true;
 
-module.exports = new Logger();
+module.exports = Logger;
 
-function Logger(){
-	this.log = function(msg){console.log(Date.now()+': '+msg);}
-	this.error = function(msg){console.log(Date.now()+' ERROR: '+msg);}
-	this.warn = function(msg){console.log(Date.now()+' WARN: '+msg);}
-	this.debug = function(msg){if(DEBUG){console.log(Date.now()+' DEBUG: '+msg);}}
+function Logger(debug){
+	var DEBUG = debug;
+	
+	this.log = function(msg){
+		console.log("[INFO] "+now()+": "+msg);
+	}
+	
+	this.warn = function(msg){
+		console.log("[WARN] "+now()+": "+msg);
+	}
+	
+	this.error = function(msg){
+		console.error("[ERROR] "+now()+": "+msg);
+	}
+	
+	this.debug = function(msg){
+		if(DEBUG){
+			console.log("[DEBUG] "+now()+": "+msg);
+		}
+	}
+	
+	function now(){
+		return (new Date()).toISOString().replace(/T/,' ').replace('/\..+/,'');
+	}
 }
