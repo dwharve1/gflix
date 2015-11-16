@@ -10,7 +10,7 @@
 	<div class="container" ng-app="Flix" ng-controller="search">
 		<div>
 			Search: <input type="input" name="query" ng-model="query">
-			<input type="button" value="search" ng-click="searchIO.emit('tmdb:search',query)">
+			<div class="btn btn-primary"><a href="/search/{{query}}">Search</a></div>
 		</div>
 		<br>
 		<div ng-show="(selected)">
