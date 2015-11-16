@@ -22,8 +22,18 @@
 				<p>{{selected.name}}</p>
 				<p>{{selected.overview}}</p>
 			</div>
-			<div class="row" ng-show="(selected.seasons)">
-				<div class="col-xs-4" ng-repeat="season in selected.seasons">
+			<div class="row" ng-show="(selected.episodes) || (selected.seasons)">
+				<div class="col-xs-4" ng-repeat="episode in selected.episodes">
+					<div class="thumbnail" ng-show="season.poster_path">
+						<a href="{{selected.id}}/season/{{season.season_number}}">
+							<img ng-src="http://image.tmdb.org/t/p/w185/{{season.poster_path}}">
+						</a>
+					</div>
+					<div class="caption">
+						Season {{season.season_number}}
+					</div>
+				</div>
+				<div class="col-xs-4" ng-repeat="season in selected.seasons" ng-show="(!selected.episodes)">
 					<div class="thumbnail" ng-show="season.poster_path">
 						<a href="{{selected.id}}/season/{{season.season_number}}">
 							<img ng-src="http://image.tmdb.org/t/p/w185/{{season.poster_path}}">
