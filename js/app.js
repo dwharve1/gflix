@@ -58,7 +58,7 @@ app.controller('stream',function($scope){
 	});
 	
 	$scope.streamIO.on('connect',function(){
-		alert('connnected');
+		alert(parser);
 		var path = parser.split("/");
 		alert(path.length);
 		if(path.length > 1){
