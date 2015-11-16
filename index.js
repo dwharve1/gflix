@@ -111,6 +111,7 @@ var stream = io.of('/stream').on('connection',function(socket){
 		log.debug('start by id requested');
 		sm.getTorrent(tmdbId,function(err,res){
 			if(err){log.error(err);return;}
+			if(!res){log.debug('invalid video requested');return;}
 			log.debug(res.link);
 			leaveAllRooms(socket,function(){
 				socket.join(parseMagURI(res.link),function(){
