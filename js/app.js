@@ -43,5 +43,17 @@ app.controller('search',function($scope){
 });
 
 app.controller('stream',function($scope){
+	$scope.streamIO = io.connect(http://gg.gidgette.com:9090/stream');
+	$scope.videoUri = null;
+	$scope.label = {msg:''};
+
+	$scope.streamIO.on('progress',function(obj){
+		$scope.label = obj;
+		$scope.$apply();
+	});
 	
+	$scope.streamIO.on('play',function(vidUrl){
+		$scope.videoUri = vidUrl;
+		$scope.$apply();
+	});
 });
