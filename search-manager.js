@@ -1,4 +1,4 @@
-var log = new require('./logger.js')(true);
+var log = new (require('./logger.js'))(true);
 
 var MAX_PAGE_LIMIT = 2;
 
@@ -78,21 +78,29 @@ function SearchManager() {
 	this.listSeasons = function(tmdbId,cb){
 		getSeasons(tmdbId,cb);
 	}
-	this.listEpisodes = function(name, tmdbId,seasonId,options,cb){
-		getEpisodes(name, tmdbId,seasonId,function(err,res){
-			if(err){cb(err);return;}
-			queryTorrents(res,function(err,res){
+	this.listEpisodes = function(tmdbId,seasonId,options,cb){
+		getSeasons(tmdbId,function(err,res){
+			getEpisodes(tmdbId,seasonId,function(err,epRes){
 				if(err){cb(err);return;}
-				searchTorrents(res,options,function(res){
-					cb(null,res);return;
+				if(!epRes){cb();return;}
+				for(var i=0;i<epRes.episodes.length;i++){
+					epRes.episodes[i].title = res.name;
+				}
+				log.debug(res.name);
+				queryTorrents(epRes.episodes,function(err,queryRes){
+					if(err){cb(err);return;}
+					searchTorrents(queryRes,options,function(torRes){
+						res.episodes = torRes;
+						cb(null,res);return;
+					});
 				});
 			});
 		});
 	}
 }
 
-function getEpisodes(name, tmdbId, seasonId, cb){
-	log.debug('Fetching episodes');
+function getEpisodes(tmdbId, seasonId, cb){
+	log.debug('Fetching episodes: id:'+tmdbId+', season:'+seasonId);
 	request({
 		method:'GET',
 		url: 'http://api.themoviedb.org/3/tv/'+tmdbId+'/season/'+seasonId+'?api_key=ae171aa864156acb87af501e1dcf2d84',
@@ -101,10 +109,7 @@ function getEpisodes(name, tmdbId, seasonId, cb){
 			if(err){log.error(err);cb(err);return;}
 			log.debug('Status: '+res.statusCode);
 			var json = JSON.parse(res.body);
-			for(var i=0;i<json.episodes.length;i++){
-				json.episodes[i].title = name;
-			}
-			cb(null,json.episodes);
+			cb(null,json);
 		}
 	);
 }
@@ -251,8 +256,8 @@ function searchTorrents(tmdbResults,options,cb,results){
 				if(tmdbResults.length == 0){cb(results);return;}
 				else{searchTorrents(tmdbResults,options,cb,results);return;}
 			}
-			if(cur.hasOwnProperty('torrnet')){
-				Torrent.update(torrent,tcb)
+			if(cur.hasOwnProperty('torrent')){
+				Torrent.update(torrent,tcb);
 			}else{
 				Torrent.create(torrent,tcb);
 			}
@@ -264,7 +269,7 @@ function searchTorrents(tmdbResults,options,cb,results){
 				if(tmdbResults.length == 0){cb(results);return;}
 				else{searchTorrents(tmdbResults,options,cb,results);return;}
 			}
-			if(cur.hasOwnProperty('torrnet')){
+			if(cur.hasOwnProperty('torrent')){
 				Torrent.update(torrent,tcb)
 			}else{
 				Torrent.create(torrent,tcb);

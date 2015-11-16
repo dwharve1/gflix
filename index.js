@@ -1,4 +1,4 @@
-var log = require('./logger.js');
+var log = new (require('./logger.js'))(true);
 
 // Parers
 var sm = require('./search-manager.js');
@@ -17,14 +17,23 @@ var rimraf = require('rimraf');
 
 // Start webserver
 http.listen(process.argv[2]);
-app.use(express.static('public'));
+app.use('/js',express.static(__dirname+'/js'));
 
-app.get('/watch',function(req,res){
-	if(req.query.tid && req.query.fid){
-		var tid = getTorrentIdByInfoHash(req.query.tid);
-		var fid = req.query.fid;
-		
+app.get('/*',function(req,res){
+	res.sendFile(__dirname+'/html/search.html');
+});
+
+app.get('/watch/:tid',function(req,res){
+	if(req.params.tid){
+		var tid = getTorrentIdByInfoHash(req.params.tid);		
 		if(tid != null){
+			var fid = 0;
+			var len = 0;
+			for(var i=0;i<torrent.files.length;i++){
+				fid = (torrent.files[i].length > len)?i:fid;
+				len = (torrent.files[i].length > len)?torrent.files[i].length:len;
+			}
+			
 			if(torrents[tid].files.length > fid){
 				var file = torrents[tid].files[fid];
 
@@ -56,6 +65,7 @@ app.get('/watch',function(req,res){
 
 var search = io.of('/search').on('connection',function(socket){
 	log.debug('/search connected');
+	
 	socket.on('tmdb:search',function(query){
 		log.debug('Search received');
 		sm.search(query,{},function(err,res){
@@ -66,12 +76,12 @@ var search = io.of('/search').on('connection',function(socket){
 	socket.on('tmdb:listSeasons',function(tmdbId){
 		log.debug('Seasons request received');
 		sm.listSeasons(tmdbId,function(err,res){
-			socket.emit('tmdb:seasons',err,res);
+			socket.emit('tmdb:results',err,res);
 		});
 	});
-	socket.on('tmdb:listEpisodes',function(name,tmdbId,seasonId){
-		sm.listEpisodes(name,tmdbId,seasonId,{},function(err,res){
-			socket.emit('tmdb:episodes',err,res);
+	socket.on('tmdb:listEpisodes',function(tmdbId,seasonId){
+		sm.listEpisodes(tmdbId,seasonId,{},function(err,res){
+			socket.emit('tmdb:results',err,res);
 		});
 	});
 });
@@ -112,7 +122,16 @@ function leaveAllRooms(socket,cb){
 }
 
 function parseMagURI(magUri){
-	return magUri.split("btih:")[1].split("&")[0].toLowerCase();
+	if(magUri){
+		var tmp = magUri.split("btih:");
+		if(tmp.length > 1){
+			tmp = tmp[1].split("&");
+			if(tmp.length > 0){
+				return tmp[0].toLowerCase();
+			}
+		}
+	}
+	return null;
 }
 
 
@@ -128,37 +147,25 @@ function initTorrent(torrent){
 		}
 	}
 
-	var tid = getTorrentIdByInfoHash(torrent.infoHash);
-	log.debug("tid: "+tid);
-
-	//Find largest file in torrent
-	var fid = 0;
-	var len = 0;
-	for(var i=0;i<torrent.files.length;i++){
-		fid = (torrent.files[i].length > len)?i:fid;
-		len = (torrent.files[i].length > len)?torrent.files[i].length:len;
-	}
-	log.debug('fid: '+fid);
-
 	//Update clients with progress of torrent download
 	torrent.on('download',function(){
 		//stream.to(torrent.infoHash).emit('progress',{msg:"Streaming "+torrent.files[fid].name,progress:torrent.progress,downloaded:torrent.downloaded,speed:torrent.downloadSpeed()});
 	});
 
 	//Notify clients of url to stream from
-	stream.to(torrent.infoHash).emit('play', 'watch?tid='+torrent.infoHash+'&fid='+fid);
+	stream.to(torrent.infoHash).emit('play', 'watch/'+torrent.infoHash);
 }
 
 function cleanUpTorrents(){
 	for(var i=0;i<torrents.length;i++){
 		if(io.nsps['/stream'].adapter.rooms[torrents[i].infoHash]){
 			if(io.nsps['/stream'].adapter.rooms[torrents[i].infoHash].length == 0){
-				rimraf('/tmp/webtorrent/'+torrents[i].infoHash+'*',function(err){log.debug('Remove: '+i+' '+err);});
+				rimraf('/tmp/torrent-stream/'+torrents[i].infoHash+'*',function(err){log.debug('Remove: '+i+' '+err);});
 				torrents[i].destroy();
 				torrents.splice(i,1);
 			}
 		}else{
-			rimraf('/tmp/webtorrent/'+torrents[i].infoHash+'*',function(err){log.debug('Remove: '+i+' '+err);});
+			rimraf('/tmp/torrent-stream/'+torrents[i].infoHash+'*',function(err){log.debug('Remove: '+i+' '+err);});
 			torrents[i].destroy();
 			torrents.splice(i,1);
 		}

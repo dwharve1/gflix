@@ -1,4 +1,4 @@
-var log = require('../logger.js');
+var log = new (require('../logger.js'))(true);
 var http = require('http');
 var pbsearch = "http://kickasstorrents.to/search.php?key=";
 var filetypes = ['mp4','avi','mkv'];
@@ -92,7 +92,8 @@ function scrapeFields(body){
 		if(tmp.link.length < 2){log.debug('kickasstorrents.to: Unable to parse magnet link');continue;}
 		tmp.link = tmp.link[1].split(/['"]/);
 		if(tmp.link.length < 1){log.debug('kickasstorrents.to: Unable to parse magnet link end');continue;}
-		tmp.link = 'magnet:?'+tmp.link[0];
+		tmp.link = (tdel == 'magnet%3A%3F')?unescape(tmp.link[0]):tmp.link[0];
+		tmp.link = 'magnet:?'+tmp.link;
 		
 		tmp.seeders = parseInt(torrents[i].substring(torrents[i].search("green center\">")+14,torrents[i].indexOf("</td>",torrents[i].search("green center\">"))));
 		tmp.size = torrents[i].substring(torrents[i].search("nobr center\">")+13,torrents[i].indexOf("</td>",torrents[i].search("nobr center\">"))).replace(/(<([^>]+)>)/ig,"").split(" ");

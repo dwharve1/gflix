@@ -28,7 +28,7 @@ app.controller('search',function($scope){
 		if(path.length > 1){
 			if(path[1] == 'search'){
 				if(path.length == 3){
-					$scope.query = path[2];
+					$scope.query = unescape(path[2]);
 					$scope.searchIO.emit('tmdb:search',unescape(path[2]));
 				}
 			}else if(path[1] == 'tv'){
