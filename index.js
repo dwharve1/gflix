@@ -18,8 +18,10 @@ var rimraf = require('rimraf');
 // Start webserver
 http.listen(process.argv[2]);
 app.use('/js',express.static(__dirname+'/js'));
-
 app.get('/watch/:tid',function(req,res){
+	res.sendFile(__dirname+'/html/watch.html')
+});
+app.get('/video/:tid',function(req,res){
 	if(req.params.tid){
 		var tid = getTorrentIdByInfoHash(req.params.tid);		
 		if(tid != null){
