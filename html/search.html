@@ -14,8 +14,14 @@
 		</div>
 		<br>
 		<div ng-show="(selected)">
-			<p>{{selected.name}}</p>
-			<p>{{selected.overview}}</p>
+			<div>
+				<div style="float:left;" ng-show="(season.poster_path)">
+					<img ng-src="http://image.tmdb.org/t/p/w185/{{season.poster_path}}">
+				</div>
+				<p>{{selected.title}}</p>
+				<p>{{selected.name}}</p>
+				<p>{{selected.overview}}</p>
+			</div>
 			<div class="row" ng-show="(selected.seasons)">
 				<div class="col-xs-4" ng-repeat="season in selected.seasons">
 					<div class="thumbnail" ng-show="season.poster_path">
