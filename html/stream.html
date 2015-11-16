@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Torrent Stream Test</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<script language='javascript' src='http://gg.gidgette.com:9090/socket.io/socket.io.js'></script>
+<script language='javascript' src='http://gg.gidgette.com:9090/js/socket.io-stream.js'></script>
+<script language='javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js'></script>
+<script language='javascript' src='http://gg.gidgette.com:9090/js/api.js'></script>
+</head>
+<body>
+	<div class="container" ng-app="Flix" ng-controller="stream">
+		<video id='video' autoplay controls ng-src="{{videoUri}}"  ng-show="(videoUri)"></video>
+	</div>
+</body>
+</html>
