@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Torrent Stream Test</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<script language='javascript' src='/socket.io/socket.io.js'></script>
+<script language='javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js'></script>
+<script language='javascript' src='http://gg.gidgette.com:9090/js/app.js'></script>
+</head>
+<body>
+	<div class="container" ng-app="Flix" ng-controller="search">
+		<div>
+			Search: <input type="input" name="query" ng-model="query">
+			<input type="button" value="search" ng-click="searchIO.emit('tmdb:search',query)">
+		</div>
+		<br>
+		<div ng-show="(selected)">
+			<p>{{selected.name}}</p>
+			<p>{{selected.overview}}</p>
+			<div class="row" ng-show="(selected.seasons)">
+				<div class="col-xs-4" ng-repeat="season in selected.seasons">
+					<div class="thumbnail" ng-show="season.poster_path">
+						<a href="{{selected.id}}/season/{{season.season_number}}">
+							<img ng-src="http://image.tmdb.org/t/p/w185/{{season.poster_path}}">
+						</a>
+					</div>
+					<div class="caption">
+						Season {{season.season_number}}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" ng-show="(tmdb)">
+			<div class="col-xs-4" ng-repeat="item in tmdb" ng-show="(item.poster_path)" height="300px">
+				<div class="thumbnail">
+					<a href="{{(item.media_type=='movie')?'movie/'+item.id:'tv/'+item.id}}">
+						<img ng-src="http://image.tmdb.org/t/p/w185/{{item.poster_path}}" ng-show="(item.poster_path)">
+					</a>
+				</div>
+				<div class="caption">
+					<h4 ng-show="(item.title)">{{item.title}}</h4>
+					<h4 ng-show="(item.name)">{{item.name}}</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
