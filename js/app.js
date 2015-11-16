@@ -27,7 +27,10 @@ app.controller('search',function($scope){
 		var path = parser.pathname.split("/");
 		if(path.length > 1){
 			if(path[1] == 'search'){
-				$scope.searchIO.emit('tmdb:search',unescape(path[2]));
+				if(path.length == 3){
+					$scope.query = path[2];
+					$scope.searchIO.emit('tmdb:search',unescape(path[2]));
+				}
 			}else if(path[1] == 'tv'){
 				if(path.length == 3){
 					$scope.searchIO.emit('tmdb:listSeasons',path[2]);
