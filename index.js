@@ -109,7 +109,7 @@ var stream = io.of('/stream').on('connection',function(socket){
 	});
 	socket.on('startById',function(tmdbId){
 		log.debug('start by id requested');
-		Torrent.find({tmdbId:tmdbId},function(err,res){
+		sm.getTorrent(tmdbId,function(err,res){
 			if(err){log.error(err);return;}
 			log.debug(res.magnet);
 			leaveAllRooms(socket,function(){
