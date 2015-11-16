@@ -38,7 +38,7 @@
 		<div class="row" ng-show="(search)">
 			<div class="col-xs-4" ng-repeat="item in search" ng-show="(item.poster_path)" height="300px">
 				<div class="thumbnail">
-					<a href="{{(item.media_type=='movie')?'movie/'+item.id:'tv/'+item.id}}">
+					<a href="{{(item.media_type=='movie')?'/movie/'+item.id:'/tv/'+item.id}}">
 						<img ng-src="http://image.tmdb.org/t/p/w185/{{item.poster_path}}" ng-show="(item.poster_path)">
 					</a>
 				</div>
