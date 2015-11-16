@@ -19,10 +19,6 @@ var rimraf = require('rimraf');
 http.listen(process.argv[2]);
 app.use('/js',express.static(__dirname+'/js'));
 
-app.get('/*',function(req,res){
-	res.sendFile(__dirname+'/html/search.html');
-});
-
 app.get('/watch/:tid',function(req,res){
 	if(req.params.tid){
 		var tid = getTorrentIdByInfoHash(req.params.tid);		
@@ -62,6 +58,9 @@ app.get('/watch/:tid',function(req,res){
 	}else{res.sendStatus(404).end();}
 });
 
+app.get('/*',function(req,res){
+	res.sendFile(__dirname+'/html/search.html');
+});
 
 var search = io.of('/search').on('connection',function(socket){
 	log.debug('/search connected');
