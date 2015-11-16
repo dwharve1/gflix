@@ -171,7 +171,7 @@ function initTorrent(torrent){
 	});
 
 	//Notify clients of url to stream from
-	stream.to(torrent.infoHash).emit('play', 'watch/'+torrent.infoHash);
+	stream.to(torrent.infoHash).emit('play', '/video/'+torrent.infoHash);
 }
 
 function cleanUpTorrents(){
