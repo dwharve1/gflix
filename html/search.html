@@ -35,7 +35,7 @@
 				</div>
 				<div class="col-xs-4" ng-repeat="season in selected.seasons" ng-show="(!selected.episodes)">
 					<div class="thumbnail" ng-show="season.poster_path">
-						<a href="http://gg.gidgette.com:9090/{{selected.id}}/season/{{season.season_number}}">
+						<a href="http://gg.gidgette.com:9090/tv/{{selected.id}}/season/{{season.season_number}}">
 							<img ng-src="http://image.tmdb.org/t/p/w185/{{season.poster_path}}">
 						</a>
 					</div>
