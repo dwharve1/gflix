@@ -58,11 +58,8 @@ app.controller('stream',function($scope){
 	});
 	
 	$scope.streamIO.on('connect',function(){
-		alert(parser);
-		var path = parser.split("/");
-		alert(path.length);
+		var path = parser.pathname.split("/");
 		if(path.length > 1){
-			alert(path[2]);
 			$scope.streamIO.emit('startById',path[2]);
 		}
 	});
