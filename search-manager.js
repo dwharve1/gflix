@@ -65,7 +65,7 @@ function SearchManager() {
 	var that = this;
 	
 	this.getTorrent = function(tmdbId,cb){
-		Torrent.findOne({tmdbId: tmdbId},cb);
+		Torrent.where({tmdbId: tmdbId}).findOne(cb);
 	}
 
 	this.search = function(query,options,cb){
