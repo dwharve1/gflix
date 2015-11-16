@@ -1,6 +1,9 @@
 var app = angular.module('Flix', []);
 app.controller('search',function($scope){
-	$scope.searchIO = io.connect('http://gg.gidgette.com:9090/search');
+	var parser = document.createElement('a');
+	parser.href = location.href;
+
+	$scope.searchIO = io.connect('http://'+parser.host+'/search');
 	$scope.query = "";
 	$scope.progress = {msg:'',percent: 0};
 	$scope.search = null;
@@ -17,14 +20,10 @@ app.controller('search',function($scope){
 	});
 	$scope.searchIO.on('tmdb:results',function(err,res){
 		if(err){$scope.label.msg = err; $scope.$apply();return;}
-		console.log('rx');
 		$scope.selected = res;
-		console.log(res);
 		$scope.$apply();
 	});
 	$scope.searchIO.on('connect',function(){
-		var parser = document.createElement('a');
-		parser.href = location.href;
 		var path = parser.pathname.split("/");
 		if(path.length > 1){
 			if(path[1] == 'tv'){
