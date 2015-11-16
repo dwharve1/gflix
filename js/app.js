@@ -32,8 +32,8 @@ app.controller('search',function($scope){
 					$scope.searchIO.emit('tmdb:search',unescape(path[2]));
 				}
 			}else if(path[1] == 'tv'){
+				alert(path.length);
 				if(path.length == 5){
-					alert('here');
 					$scope.searchIO.emit('tmdb:listEpisodes',path[2],path[4]);
 				}else if(path.length == 3){
 					$scope.searchIO.emit('tmdb:listSeasons',path[2]);
