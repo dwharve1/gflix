@@ -1,8 +1,8 @@
+var parser = document.createElement('a');
+parser.href = location.href;
+
 var app = angular.module('Flix', []);
 app.controller('search',function($scope){
-	var parser = document.createElement('a');
-	parser.href = location.href;
-
 	$scope.searchIO = io.connect('http://'+parser.host+'/search');
 	$scope.query = "";
 	$scope.progress = {msg:'',percent: 0};
@@ -55,5 +55,12 @@ app.controller('stream',function($scope){
 	$scope.streamIO.on('play',function(vidUrl){
 		$scope.videoUri = vidUrl;
 		$scope.$apply();
+	});
+	
+	$scope.streamIO.on('connect',function(){
+		var path = parser.split("/");
+		if(parser.length > 1){
+			$scope.streamIO.emit('start',path[1]);
+		}
 	});
 });
