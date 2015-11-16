@@ -10,7 +10,7 @@
 	<div class="container" ng-app="Flix" ng-controller="search">
 		<div>
 			Search: <input type="input" name="query" ng-model="query">
-			<div class="btn btn-primary"><a href="/search/{{query}}">Search</a></div>
+			<div class="btn btn-primary"><a href="http://gg.gidgette.com:9090/search/{{query}}">Search</a></div>
 		</div>
 		<br>
 		<div ng-show="(selected)">
@@ -25,7 +25,7 @@
 			<div class="row" ng-show="(selected.episodes) || (selected.seasons)">
 				<div class="col-xs-4" ng-repeat="episode in selected.episodes">
 					<div class="thumbnail" ng-show="episode.still_path">
-						<a href="{{parser.protocol+'//'+parser.host}}/watch/{{episode.torrent.link}}">
+						<a href="http://gg.gidgette.com:9090/watch/{{episode.torrent.link}}">
 							<img ng-src="http://image.tmdb.org/t/p/w185/{{episode.still_path}}">
 						</a>
 					</div>
@@ -35,7 +35,7 @@
 				</div>
 				<div class="col-xs-4" ng-repeat="season in selected.seasons" ng-show="(!selected.episodes)">
 					<div class="thumbnail" ng-show="season.poster_path">
-						<a href="{{parser.protocol+'//'+parser.host+'/'+selected.id}}/season/{{season.season_number}}">
+						<a href="http://gg.gidgette.com:9090/{{selected.id}}/season/{{season.season_number}}">
 							<img ng-src="http://image.tmdb.org/t/p/w185/{{season.poster_path}}">
 						</a>
 					</div>
@@ -48,7 +48,7 @@
 		<div class="row" ng-show="(search)">
 			<div class="col-xs-4" ng-repeat="item in search" ng-show="(item.poster_path)" height="300px">
 				<div class="thumbnail">
-					<a href="{{(item.media_type=='movie')?parser.protocol+'//'+parser.host+'/movie/'+item.id:parser.protocol+'//'+parser.host+'/tv/'+item.id}}">
+					<a href="{{(item.media_type=='movie')?http://gg.gidgette.com:9090/movie/'+item.id:http://gg.gidgette.com:9090/tv/'+item.id}}">
 						<img ng-src="http://image.tmdb.org/t/p/w185/{{item.poster_path}}" ng-show="(item.poster_path)">
 					</a>
 				</div>
