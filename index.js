@@ -29,7 +29,7 @@ app.get('/video/:tid',function(req,res){
 			var len = 0;
 			for(var i=0;i<torrents[tid].files.length;i++){
 				fid = (torrents[tid].files[i].length > len)?i:fid;
-				len = (torrents[tid].files[i].length > len)?torrent.files[i].length:len;
+				len = (torrents[tid].files[i].length > len)?torrents[tid].files[i].length:len;
 			}
 			
 			if(torrents[tid].files.length > fid){
