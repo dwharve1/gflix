@@ -25,7 +25,7 @@
 			<div class="row" ng-show="(selected.episodes) || (selected.seasons)">
 				<div class="col-xs-4" ng-repeat="episode in selected.episodes">
 					<div class="thumbnail" ng-show="episode.still_path">
-						<a href="http://gg.gidgette.com:9090/watch/{{episode.torrent.magnet}}">
+						<a href="http://gg.gidgette.com:9090/watch/{{escape(episode.torrent.magnet)}}">
 							<img ng-src="http://image.tmdb.org/t/p/w185/{{episode.still_path}}">
 						</a>
 					</div>
