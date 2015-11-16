@@ -27,9 +27,9 @@ app.get('/video/:tid',function(req,res){
 		if(tid != null){
 			var fid = 0;
 			var len = 0;
-			for(var i=0;i<torrent.files.length;i++){
-				fid = (torrent.files[i].length > len)?i:fid;
-				len = (torrent.files[i].length > len)?torrent.files[i].length:len;
+			for(var i=0;i<torrents[tid].files.length;i++){
+				fid = (torrents[tid].files[i].length > len)?i:fid;
+				len = (torrents[tid].files[i].length > len)?torrent.files[i].length:len;
 			}
 			
 			if(torrents[tid].files.length > fid){
