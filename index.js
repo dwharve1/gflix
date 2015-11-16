@@ -106,6 +106,23 @@ var stream = io.of('/stream').on('connection',function(socket){
 			});
 		});
 	});
+	socket.on('startById',function(tmdbId){
+		Torrent.find({tmdbId:tmdbId},function(err,res){
+			if(err){return;}
+			log.debug(res.magnet);
+			leaveAllRooms(socket,function(){
+				socket.join(parseMagURI(magUri),function(){
+					cleanUpTorrents();
+					if(getTorrentIdByInfoHash(parseMagURI(magUri)) == null){
+						var tor = ts(magUri);
+						tor['infoHash'] = parseMagURI(magUri);
+						torrents.push(tor);
+						tor.on('ready',function(){initTorrent(tor);});
+					}
+				});
+			});
+		});
+	});
 	socket.on('disconnect',function(){
 		cleanUpTorrents();
 	});
