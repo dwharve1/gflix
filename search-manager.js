@@ -1,4 +1,4 @@
-var log = require('./logger.js');
+var log = new require('./logger.js')(true);
 
 var MAX_PAGE_LIMIT = 2;
 
