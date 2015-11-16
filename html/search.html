@@ -24,13 +24,13 @@
 			</div>
 			<div class="row" ng-show="(selected.episodes) || (selected.seasons)">
 				<div class="col-xs-4" ng-repeat="episode in selected.episodes">
-					<div class="thumbnail" ng-show="season.poster_path">
-						<a href="{{selected.id}}/season/{{season.season_number}}">
-							<img ng-src="http://image.tmdb.org/t/p/w185/{{season.poster_path}}">
+					<div class="thumbnail" ng-show="episode.poster_path">
+						<a href="watch/{{episode.torrent.link}}">
+							<img ng-src="http://image.tmdb.org/t/p/w185/{{episode.poster_path}}">
 						</a>
 					</div>
 					<div class="caption">
-						Season {{season.season_number}}
+						Ep. {{episode.episode_number}} {{episode.name}}
 					</div>
 				</div>
 				<div class="col-xs-4" ng-repeat="season in selected.seasons" ng-show="(!selected.episodes)">
