@@ -63,6 +63,10 @@ module.exports = new SearchManager();
 
 function SearchManager() {
 	var that = this;
+	
+	this.getTorrent = function(tmdbId,cb){
+		Torrent.find({tmdbId: tmdbId},cb);
+	}
 
 	this.search = function(query,options,cb){
 		searchTmdb(query,function(err,res){
