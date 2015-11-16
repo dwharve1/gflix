@@ -112,13 +112,12 @@ var stream = io.of('/stream').on('connection',function(socket){
 		sm.getTorrent(tmdbId,function(err,res){
 			if(err){log.error(err);return;}
 			if(!res){log.debug('invalid video requested');return;}
-			log.debug(res);
 			leaveAllRooms(socket,function(){
-				socket.join(parseMagURI(res.link),function(){
+				socket.join(parseMagURI(res.magnet),function(){
 					cleanUpTorrents();
-					if(getTorrentIdByInfoHash(parseMagURI(res.link)) == null){
-						var tor = ts(res.link);
-						tor['infoHash'] = parseMagURI(res.link);
+					if(getTorrentIdByInfoHash(parseMagURI(res.magnet)) == null){
+						var tor = ts(res.magnet);
+						tor['infoHash'] = parseMagURI(res.magnet);
 						torrents.push(tor);
 						tor.on('ready',function(){initTorrent(tor);});
 					}
