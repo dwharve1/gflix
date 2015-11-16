@@ -43,7 +43,7 @@ app.controller('search',function($scope){
 });
 
 app.controller('stream',function($scope){
-	$scope.streamIO = io.connect(http://gg.gidgette.com:9090/stream');
+	$scope.streamIO = io.connect('http://gg.gidgette.com:9090/stream');
 	$scope.videoUri = null;
 	$scope.label = {msg:''};
 
