@@ -111,13 +111,13 @@ var stream = io.of('/stream').on('connection',function(socket){
 		log.debug('start by id requested');
 		sm.getTorrent(tmdbId,function(err,res){
 			if(err){log.error(err);return;}
-			log.debug(res.magnet);
+			log.debug(res.link);
 			leaveAllRooms(socket,function(){
-				socket.join(parseMagURI(magUri),function(){
+				socket.join(parseMagURI(res.link),function(){
 					cleanUpTorrents();
-					if(getTorrentIdByInfoHash(parseMagURI(magUri)) == null){
-						var tor = ts(magUri);
-						tor['infoHash'] = parseMagURI(magUri);
+					if(getTorrentIdByInfoHash(parseMagURI(res.link)) == null){
+						var tor = ts(res.link);
+						tor['infoHash'] = parseMagURI(res.link);
 						torrents.push(tor);
 						tor.on('ready',function(){initTorrent(tor);});
 					}
