@@ -8,24 +8,47 @@
 </head>
 <body>
 	<div class="container" ng-app="Flix" ng-controller="search">
-		<div>
-			Search: <input type="input" name="query" ng-model="query">
-			<div class="btn btn-primary"><a href="http://gg.gidgette.com:9090/search/{{query}}">Search</a></div>
+		<div class="container-fluid">
+			<div class="navbar-brand">
+				GFlix
+			</div>
+			<div class="navbar-form navbar-right">
+				<input type="text" class="form-control" placeholder="Search" name="query" ng-model="query">
+				<a ng-href='http://gg.gidgette.com:9090/search/{{query}}'>
+				<button class="btn btn-default">Search</button>
+				</a>
+			</div>
 		</div>
-		<br>
-		<div ng-show="(selected)">
-			<div>
-				<div style="float:left;" ng-show="(selected.poster_path)">
-					<img ng-src="http://image.tmdb.org/t/p/w185/{{selected.poster_path}}">
+		<div class="container" width="500px" ng-show="(!selected) && (!search)">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					Loading
 				</div>
-				<p>{{selected.title}}</p>
-				<p>{{selected.name}}</p>
-				<p>{{selected.overview}}</p>
+				<div class="panel-body">
+					<p class="text-center">{{label.msg}}</p>
+				</div>
+			</div>
+		</div>
+		<div ng-show="(selected)">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					{{selected.title}}
+				</div>
+				<div class="panel-body">
+					<div class="pull-left thumbnail" ng-show="(selected.poster_path)">
+						<img ng-src="http://image.tmdb.org/t/p/w185/{{selected.poster_path}}">
+					</div>
+					<div class="container-fluid">
+						<p>{{selected.name}}</p>
+						<p>{{selected.overview}}</p>
+					</div>
+					<button class="btn btn-primary" ng-show="(selected.type=='playable')" ng-click="location.href='{{selected.id}}'">Play</button>
+				</div>
 			</div>
 			<div class="row" ng-show="(selected.episodes) || (selected.seasons)">
 				<div class="col-xs-4" ng-repeat="episode in selected.episodes">
 					<div class="thumbnail" ng-show="episode.still_path">
-						<a href="http://gg.gidgette.com:9090/watch/{{episode.id}}">
+						<a href="{{episode.id}}">
 							<img ng-src="http://image.tmdb.org/t/p/w185/{{episode.still_path}}">
 						</a>
 					</div>
@@ -35,7 +58,7 @@
 				</div>
 				<div class="col-xs-4" ng-repeat="season in selected.seasons" ng-show="(!selected.episodes)">
 					<div class="thumbnail" ng-show="season.poster_path">
-						<a href="http://gg.gidgette.com:9090/tv/{{selected.id}}/season/{{season.season_number}}">
+						<a href="{{season.season_number}}">
 							<img ng-src="http://image.tmdb.org/t/p/w185/{{season.poster_path}}">
 						</a>
 					</div>

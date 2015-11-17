@@ -103,6 +103,9 @@ var stream = io.of('/stream').on('connection',function(socket){
 					log.debug('infoHash: '+tor['infoHash']);
 					torrents.push(tor);
 					tor.on('ready',function(){initTorrent(tor);});
+				}else{
+					var tid = getTorrentIdByInfoHash(parseMagURI(res.magnet));
+					stream.to(torrents[tid].infoHash).emit('play', '/video/'+torrents[tid].infoHash);
 				}
 			});
 		});
@@ -120,6 +123,9 @@ var stream = io.of('/stream').on('connection',function(socket){
 						tor['infoHash'] = parseMagURI(res.magnet);
 						torrents.push(tor);
 						tor.on('ready',function(){initTorrent(tor);});
+					}else{
+						var tid = getTorrentIdByInfoHash(parseMagURI(res.magnet));
+						stream.to(torrents[tid].infoHash).emit('play', '/video/'+torrents[tid].infoHash);
 					}
 				});
 			});
