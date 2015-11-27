@@ -2,14 +2,39 @@
 <head>
 <title>Torrent Stream Test</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-<script language='javascript' src='http://gg.gidgette.com:9090/socket.io/socket.io.js'></script>
-<script language='javascript' src='http://gg.gidgette.com:9090/js/socket.io-stream.js'></script>
+<script language='javascript' src='/socket.io/socket.io.js'></script>
+<script language='javascript' src='/js/socket.io-stream.js'></script>
 <script language='javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js'></script>
-<script language='javascript' src='http://gg.gidgette.com:9090/js/app.js'></script>
+<script language='javascript' src='/js/app.js'></script>
+<!-- 1. skin -->
+<link rel="stylesheet" href="//releases.flowplayer.org/6.0.4/skin/functional.css">
+ 
+<!-- 2. jquery library - required for video tag based installs -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+ 
+<!-- 3. flowplayer -->
+<script src="//releases.flowplayer.org/6.0.4/flowplayer.min.js"></script>
 </head>
 <body>
 	<div class="container" ng-app="Flix" ng-controller="stream">
-		<video id='video' autoplay controls ng-src="{{videoUri}}"  ng-show="(videoUri)"></video>
+		<div class="row">
+			<div class="col-md-5">
+				<div class="list-group" ng-repeat="torrent in tmdb.torrents">
+					<div class="list-group-item {{(tmdb.active == $index)?'active':''}}" ng-click="tmdb.active = $index;streamIO.emit('start',torrent.link)">
+						<div class="row">
+							<div class="col-md-12">{{torrent.title}}</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">Seeders: {{torrent.seeders}}</div>
+							<div class="col-md-6">Size: {{(torrent.size<1000000000)?torrent.size/1000000+'MB':torrent.size/1000000000+'GB'}}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="player" class="col-md-7">
+				<div class="flowplayer"></div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

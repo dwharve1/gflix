@@ -16,7 +16,7 @@ function KickAss() {
 			res.on('end', function(){
 				var results = [];
 				var torrents = scrapeFields(body);
-				
+				if(!torrents){cb({site:"kickasstorrents.to",results:results});return;}
 				var titleMatch = title.replace(/[^a-z0-9\s]/gi,' ').replace(/\s\s/g,' ').toLowerCase();
 				
 				for(var i=0;i<torrents.length;i++){

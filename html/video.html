@@ -37,29 +37,9 @@
 					{{title}}
 				</div>
 				<div class="panel-body">
-					<div class="pull-left thumbnail" ng-show="image">
-						<img ng-src="{{image}}">
+					<div>
+						<video class="video"></video>
 					</div>
-					<div class="container-fluid">
-						<p ng-show="(name)">{{name}}</p>
-						<p>{{overview}}</p>
-					</div>
-					<a class="btn btn-primary" ng-show="(playable)" ng-href="{{url}}">Play</a>
-				</div>
-			</div>
-		</div>
-		<div class="row panel panel-default" ng-show="(list)">
-			<div class="col-xs-4" style="height:300px;margin-bottom:5px;" ng-repeat="item in list" ng-show="!(!item.image && item.media_type == 'tv')">
-				<div class="thumbnail" style="background-color:black;">
-					<a href="{{item.url}}">
-						<img style="max-width:200px;max-height:200px" ng-src="{{item.image}}" ng-show="(item.image)">
-						<div style="text-align:center;vertical-align:center;width:100%;height:100%" ng-show="(!item.image)">
-							No Image
-						</div>
-					</a>
-				</div>
-				<div class="caption">
-					{{item.title}}
 				</div>
 			</div>
 		</div>
