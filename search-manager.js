@@ -215,7 +215,7 @@ function SearchManager() {
 			results.id = res.id;
 			results.title = res.name;
 			results.overview = res.overview;
-			results.image = 'http://image.tmdb.org/t/p/w185'+res.poster_path;
+			results.image = (res.poster_path)?'http://image.tmdb.org/t/p/w185'+res.poster_path:null;
 			results.list = [];
 			for(var i=0;i<res.seasons.length;i++){
 				var item = {};
@@ -275,7 +275,7 @@ function SearchManager() {
 					item.torrentTitle += 'e';
 					item.torrentTitle += (epRes.episodes[i].episode_number < 10)?'0'+epRes.episodes[i].episode_number:epRes.episodes[i].episode_number;
 					item.title = 'Ep. '+epRes.episodes[i].episode_number+' '+epRes.episodes[i].name;
-					item.image = 'http://image.tmdb.org/t/p/w185'+epRes.episodes[i].still_path;
+					item.image = (epRes.episodes[i].still_path)?'http://image.tmdb.org/t/p/w185'+epRes.episodes[i].still_path:null;
 					item.url = '/tv/'+tmdbId+'/'+seasonId+'/'+epRes.episodes[i].episode_number;
 					results.list.push(item);
 				}
@@ -355,7 +355,7 @@ function SearchManager() {
 						results.torrentTitle += (epRes.episodes[i].episode_number < 10)?'0'+epRes.episodes[i].episode_number:epRes.episodes[i].episode_number;
 						results.name = 'Ep. '+epRes.episodes[i].episode_number+' '+epRes.episodes[i].name;
 						results.overview = epRes.episodes[i].overview;
-						results.image = 'http://image.tmdb.org/t/p/w185'+epRes.episodes[i].still_path;
+						results.image = (epRes.episodes[i].still_path)?'http://image.tmdb.org/t/p/w185'+epRes.episodes[i].still_path:null;
 						results.url = '/watch/'+epRes.episodes[i].id;
 					}
 				}
